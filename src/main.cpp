@@ -1,11 +1,21 @@
 #include <iostream>
 
 
+void pogGrant();
+void pogMatt();
+void pogBetterGrant();
+void peepoLuke();
+
+
 int main()
 {
 
-    std::cout << "hello world"<< std::endl;
 
+    pogGrant();
+    pogMatt();
+    pogBetterGrant();
+    peepoLuke();
+     
     return 0;
 
 }
