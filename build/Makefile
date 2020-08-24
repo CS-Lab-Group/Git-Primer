@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/luke/Documents/src/ReimmanSum
+CMAKE_SOURCE_DIR = /mnt/c/Users/luke/Documents/src/gitPrimer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/luke/Documents/src/ReimmanSum/build
+CMAKE_BINARY_DIR = /mnt/c/Users/luke/Documents/src/gitPrimer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/luke/Documents/src/ReimmanSum/build/CMakeFiles /mnt/c/Users/luke/Documents/src/ReimmanSum/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles /mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/luke/Documents/src/ReimmanSum/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ run/fast:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/luke.o: src/luke.cpp.o
+
+.PHONY : src/luke.o
+
+# target to build an object file
+src/luke.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/luke.cpp.o
+.PHONY : src/luke.cpp.o
+
+src/luke.i: src/luke.cpp.i
+
+.PHONY : src/luke.i
+
+# target to preprocess a source file
+src/luke.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/luke.cpp.i
+.PHONY : src/luke.cpp.i
+
+src/luke.s: src/luke.cpp.s
+
+.PHONY : src/luke.s
+
+# target to generate assembly for a file
+src/luke.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/luke.cpp.s
+.PHONY : src/luke.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -150,6 +177,87 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/pogBetterGrant.o: src/pogBetterGrant.cpp.o
+
+.PHONY : src/pogBetterGrant.o
+
+# target to build an object file
+src/pogBetterGrant.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogBetterGrant.cpp.o
+.PHONY : src/pogBetterGrant.cpp.o
+
+src/pogBetterGrant.i: src/pogBetterGrant.cpp.i
+
+.PHONY : src/pogBetterGrant.i
+
+# target to preprocess a source file
+src/pogBetterGrant.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogBetterGrant.cpp.i
+.PHONY : src/pogBetterGrant.cpp.i
+
+src/pogBetterGrant.s: src/pogBetterGrant.cpp.s
+
+.PHONY : src/pogBetterGrant.s
+
+# target to generate assembly for a file
+src/pogBetterGrant.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogBetterGrant.cpp.s
+.PHONY : src/pogBetterGrant.cpp.s
+
+src/pogGrant.o: src/pogGrant.cpp.o
+
+.PHONY : src/pogGrant.o
+
+# target to build an object file
+src/pogGrant.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogGrant.cpp.o
+.PHONY : src/pogGrant.cpp.o
+
+src/pogGrant.i: src/pogGrant.cpp.i
+
+.PHONY : src/pogGrant.i
+
+# target to preprocess a source file
+src/pogGrant.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogGrant.cpp.i
+.PHONY : src/pogGrant.cpp.i
+
+src/pogGrant.s: src/pogGrant.cpp.s
+
+.PHONY : src/pogGrant.s
+
+# target to generate assembly for a file
+src/pogGrant.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogGrant.cpp.s
+.PHONY : src/pogGrant.cpp.s
+
+src/pogMert.o: src/pogMert.cpp.o
+
+.PHONY : src/pogMert.o
+
+# target to build an object file
+src/pogMert.cpp.o:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogMert.cpp.o
+.PHONY : src/pogMert.cpp.o
+
+src/pogMert.i: src/pogMert.cpp.i
+
+.PHONY : src/pogMert.i
+
+# target to preprocess a source file
+src/pogMert.cpp.i:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogMert.cpp.i
+.PHONY : src/pogMert.cpp.i
+
+src/pogMert.s: src/pogMert.cpp.s
+
+.PHONY : src/pogMert.s
+
+# target to generate assembly for a file
+src/pogMert.cpp.s:
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogMert.cpp.s
+.PHONY : src/pogMert.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... run"
 	@echo "... edit_cache"
+	@echo "... src/luke.o"
+	@echo "... src/luke.i"
+	@echo "... src/luke.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/pogBetterGrant.o"
+	@echo "... src/pogBetterGrant.i"
+	@echo "... src/pogBetterGrant.s"
+	@echo "... src/pogGrant.o"
+	@echo "... src/pogGrant.i"
+	@echo "... src/pogGrant.s"
+	@echo "... src/pogMert.o"
+	@echo "... src/pogMert.i"
+	@echo "... src/pogMert.s"
 .PHONY : help
 
 

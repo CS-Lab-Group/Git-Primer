@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/run.dir/src/luke.cpp.o"
   "CMakeFiles/run.dir/src/main.cpp.o"
+  "CMakeFiles/run.dir/src/pogBetterGrant.cpp.o"
+  "CMakeFiles/run.dir/src/pogGrant.cpp.o"
+  "CMakeFiles/run.dir/src/pogMert.cpp.o"
   "run.pdb"
   "run"
 )

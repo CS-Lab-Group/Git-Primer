@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/luke/Documents/src/ReimmanSum
+CMAKE_SOURCE_DIR = /mnt/c/Users/luke/Documents/src/gitPrimer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/luke/Documents/src/ReimmanSum/build
+CMAKE_BINARY_DIR = /mnt/c/Users/luke/Documents/src/gitPrimer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/run.dir/depend.make
@@ -57,18 +57,42 @@ include CMakeFiles/run.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/run.dir/flags.make
 
+CMakeFiles/run.dir/src/luke.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/src/luke.cpp.o: ../src/luke.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/src/luke.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/src/luke.cpp.o -c /mnt/c/Users/luke/Documents/src/gitPrimer/src/luke.cpp
+
+CMakeFiles/run.dir/src/luke.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/src/luke.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luke/Documents/src/gitPrimer/src/luke.cpp > CMakeFiles/run.dir/src/luke.cpp.i
+
+CMakeFiles/run.dir/src/luke.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/src/luke.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luke/Documents/src/gitPrimer/src/luke.cpp -o CMakeFiles/run.dir/src/luke.cpp.s
+
+CMakeFiles/run.dir/src/luke.cpp.o.requires:
+
+.PHONY : CMakeFiles/run.dir/src/luke.cpp.o.requires
+
+CMakeFiles/run.dir/src/luke.cpp.o.provides: CMakeFiles/run.dir/src/luke.cpp.o.requires
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/luke.cpp.o.provides.build
+.PHONY : CMakeFiles/run.dir/src/luke.cpp.o.provides
+
+CMakeFiles/run.dir/src/luke.cpp.o.provides.build: CMakeFiles/run.dir/src/luke.cpp.o
+
+
 CMakeFiles/run.dir/src/main.cpp.o: CMakeFiles/run.dir/flags.make
 CMakeFiles/run.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luke/Documents/src/ReimmanSum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/run.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/src/main.cpp.o -c /mnt/c/Users/luke/Documents/src/ReimmanSum/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/run.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/src/main.cpp.o -c /mnt/c/Users/luke/Documents/src/gitPrimer/src/main.cpp
 
 CMakeFiles/run.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luke/Documents/src/ReimmanSum/src/main.cpp > CMakeFiles/run.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luke/Documents/src/gitPrimer/src/main.cpp > CMakeFiles/run.dir/src/main.cpp.i
 
 CMakeFiles/run.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luke/Documents/src/ReimmanSum/src/main.cpp -o CMakeFiles/run.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luke/Documents/src/gitPrimer/src/main.cpp -o CMakeFiles/run.dir/src/main.cpp.s
 
 CMakeFiles/run.dir/src/main.cpp.o.requires:
 
@@ -81,17 +105,97 @@ CMakeFiles/run.dir/src/main.cpp.o.provides: CMakeFiles/run.dir/src/main.cpp.o.re
 CMakeFiles/run.dir/src/main.cpp.o.provides.build: CMakeFiles/run.dir/src/main.cpp.o
 
 
+CMakeFiles/run.dir/src/pogBetterGrant.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/src/pogBetterGrant.cpp.o: ../src/pogBetterGrant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/run.dir/src/pogBetterGrant.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/src/pogBetterGrant.cpp.o -c /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogBetterGrant.cpp
+
+CMakeFiles/run.dir/src/pogBetterGrant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/src/pogBetterGrant.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogBetterGrant.cpp > CMakeFiles/run.dir/src/pogBetterGrant.cpp.i
+
+CMakeFiles/run.dir/src/pogBetterGrant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/src/pogBetterGrant.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogBetterGrant.cpp -o CMakeFiles/run.dir/src/pogBetterGrant.cpp.s
+
+CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.requires:
+
+.PHONY : CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.requires
+
+CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.provides: CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.requires
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.provides.build
+.PHONY : CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.provides
+
+CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.provides.build: CMakeFiles/run.dir/src/pogBetterGrant.cpp.o
+
+
+CMakeFiles/run.dir/src/pogGrant.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/src/pogGrant.cpp.o: ../src/pogGrant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/run.dir/src/pogGrant.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/src/pogGrant.cpp.o -c /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogGrant.cpp
+
+CMakeFiles/run.dir/src/pogGrant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/src/pogGrant.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogGrant.cpp > CMakeFiles/run.dir/src/pogGrant.cpp.i
+
+CMakeFiles/run.dir/src/pogGrant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/src/pogGrant.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogGrant.cpp -o CMakeFiles/run.dir/src/pogGrant.cpp.s
+
+CMakeFiles/run.dir/src/pogGrant.cpp.o.requires:
+
+.PHONY : CMakeFiles/run.dir/src/pogGrant.cpp.o.requires
+
+CMakeFiles/run.dir/src/pogGrant.cpp.o.provides: CMakeFiles/run.dir/src/pogGrant.cpp.o.requires
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogGrant.cpp.o.provides.build
+.PHONY : CMakeFiles/run.dir/src/pogGrant.cpp.o.provides
+
+CMakeFiles/run.dir/src/pogGrant.cpp.o.provides.build: CMakeFiles/run.dir/src/pogGrant.cpp.o
+
+
+CMakeFiles/run.dir/src/pogMert.cpp.o: CMakeFiles/run.dir/flags.make
+CMakeFiles/run.dir/src/pogMert.cpp.o: ../src/pogMert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/run.dir/src/pogMert.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run.dir/src/pogMert.cpp.o -c /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogMert.cpp
+
+CMakeFiles/run.dir/src/pogMert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run.dir/src/pogMert.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogMert.cpp > CMakeFiles/run.dir/src/pogMert.cpp.i
+
+CMakeFiles/run.dir/src/pogMert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run.dir/src/pogMert.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/luke/Documents/src/gitPrimer/src/pogMert.cpp -o CMakeFiles/run.dir/src/pogMert.cpp.s
+
+CMakeFiles/run.dir/src/pogMert.cpp.o.requires:
+
+.PHONY : CMakeFiles/run.dir/src/pogMert.cpp.o.requires
+
+CMakeFiles/run.dir/src/pogMert.cpp.o.provides: CMakeFiles/run.dir/src/pogMert.cpp.o.requires
+	$(MAKE) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/src/pogMert.cpp.o.provides.build
+.PHONY : CMakeFiles/run.dir/src/pogMert.cpp.o.provides
+
+CMakeFiles/run.dir/src/pogMert.cpp.o.provides.build: CMakeFiles/run.dir/src/pogMert.cpp.o
+
+
 # Object files for target run
 run_OBJECTS = \
-"CMakeFiles/run.dir/src/main.cpp.o"
+"CMakeFiles/run.dir/src/luke.cpp.o" \
+"CMakeFiles/run.dir/src/main.cpp.o" \
+"CMakeFiles/run.dir/src/pogBetterGrant.cpp.o" \
+"CMakeFiles/run.dir/src/pogGrant.cpp.o" \
+"CMakeFiles/run.dir/src/pogMert.cpp.o"
 
 # External object files for target run
 run_EXTERNAL_OBJECTS =
 
+run: CMakeFiles/run.dir/src/luke.cpp.o
 run: CMakeFiles/run.dir/src/main.cpp.o
+run: CMakeFiles/run.dir/src/pogBetterGrant.cpp.o
+run: CMakeFiles/run.dir/src/pogGrant.cpp.o
+run: CMakeFiles/run.dir/src/pogMert.cpp.o
 run: CMakeFiles/run.dir/build.make
 run: CMakeFiles/run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/luke/Documents/src/ReimmanSum/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable run"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +203,11 @@ CMakeFiles/run.dir/build: run
 
 .PHONY : CMakeFiles/run.dir/build
 
+CMakeFiles/run.dir/requires: CMakeFiles/run.dir/src/luke.cpp.o.requires
 CMakeFiles/run.dir/requires: CMakeFiles/run.dir/src/main.cpp.o.requires
+CMakeFiles/run.dir/requires: CMakeFiles/run.dir/src/pogBetterGrant.cpp.o.requires
+CMakeFiles/run.dir/requires: CMakeFiles/run.dir/src/pogGrant.cpp.o.requires
+CMakeFiles/run.dir/requires: CMakeFiles/run.dir/src/pogMert.cpp.o.requires
 
 .PHONY : CMakeFiles/run.dir/requires
 
@@ -108,6 +216,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd /mnt/c/Users/luke/Documents/src/ReimmanSum/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/luke/Documents/src/ReimmanSum /mnt/c/Users/luke/Documents/src/ReimmanSum /mnt/c/Users/luke/Documents/src/ReimmanSum/build /mnt/c/Users/luke/Documents/src/ReimmanSum/build /mnt/c/Users/luke/Documents/src/ReimmanSum/build/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/luke/Documents/src/gitPrimer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/luke/Documents/src/gitPrimer /mnt/c/Users/luke/Documents/src/gitPrimer /mnt/c/Users/luke/Documents/src/gitPrimer/build /mnt/c/Users/luke/Documents/src/gitPrimer/build /mnt/c/Users/luke/Documents/src/gitPrimer/build/CMakeFiles/run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run.dir/depend
 

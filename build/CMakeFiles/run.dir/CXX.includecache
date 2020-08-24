@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/luke/Documents/src/ReimmanSum/src/main.cpp
+/mnt/c/Users/luke/Documents/src/gitPrimer/src/luke.cpp
 iostream
 -
-math.h
+
+/mnt/c/Users/luke/Documents/src/gitPrimer/src/main.cpp
+iostream
+-
+
+/mnt/c/Users/luke/Documents/src/gitPrimer/src/pogBetterGrant.cpp
+iostream
+-
+
+/mnt/c/Users/luke/Documents/src/gitPrimer/src/pogGrant.cpp
+iostream
+-
+
+/mnt/c/Users/luke/Documents/src/gitPrimer/src/pogMert.cpp
+iostream
 -
 
